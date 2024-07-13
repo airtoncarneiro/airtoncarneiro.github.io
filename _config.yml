@@ -1,42 +1,28 @@
-title: "Um Blog"
-author: "Airton Carneiro"
-description: "Blog como objetivo de compartilhar conhecimento." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "Seu Nome"
+email: your-email@example.com
+description: "Blog com o objetivo de compartilhar conhecimento."
+baseurl: "" # se estiver no root do repositório, deixe vazio
+url: "https://username.github.io" # Substitua pelo seu URL do GitHub Pages
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-# email: "example@mail.com"
-# twitter_username: "twitteruser"
-github_username: "airtoncarneiro"
-linkedin_username: "airton-carneiro"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+# Markdown Processamento
+markdown: kramdown
+theme: minima
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+# Excluir da geração
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
 
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Links da rede social (opcional)
+github_username: seu-github-username
+linkedin_username: seu-linkedin-username
 rss: rss
-
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
-titles_from_headings:
-  strip_title: true
-  collections: true
-
-defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      tags: Other

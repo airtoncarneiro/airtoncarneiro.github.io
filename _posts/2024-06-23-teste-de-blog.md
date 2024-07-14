@@ -1,9 +1,14 @@
 ---
 title: Testing advanced markdown
+author: Airton Carneiro
 published: false
 description: teste
+layout: post
+image:
+date:   2024-07-13 14:07:52 -0300
+categories: jekyll update
 tags: sql
-id: 1922342
+comments: false
 ---
 
 # Testing advanced markdown

@@ -1,3 +1,15 @@
+---
+title:  "Você comete este erro no Left Join?"
+author: Airton Carneiro
+published: false
+description: Um erro até comum que os novatos cometem no Left Join
+layout: post
+image:
+date:   2024-07-13 14:07:52 -0300
+categories: jekyll update
+tags: sql
+comments: false
+---
 # Você comete este erro no Left Join?
 
 ![Imagem de capa do artigo](https://media-exp1.licdn.com/dms/image/C4D12AQG4ox7yv7p6EQ/article-cover_image-shrink_423_752/0/1651578328606?e=2147483647&v=beta&t=ZK8wOw_90WeE1xBBqlyhK_iFUYo9tZ1536HyvMVMUQc)

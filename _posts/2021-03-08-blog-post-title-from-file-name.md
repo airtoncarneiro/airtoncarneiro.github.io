@@ -1,10 +1,17 @@
 ---
 title: Blog Post Title From First Header
+author: Airton Carneiro
 published: false
 description: teste
+layout: post
+image:
+date:   2024-07-13 14:07:52 -0300
+categories: jekyll update
 tags: sql
+comments: false
 id: 1922342
 ---
+
 ## Blog Post Title From First Header
 
 Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.

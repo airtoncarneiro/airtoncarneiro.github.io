@@ -1,5 +1,8 @@
 ---
 layout: post
+---
+title: Testing advanced markdown
+published: false
 title:  "Welcome to Jekyll!"
 date:   2024-07-13 14:07:52 -0300
 categories: jekyll update

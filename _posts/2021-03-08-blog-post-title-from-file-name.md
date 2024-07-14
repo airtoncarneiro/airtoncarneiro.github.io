@@ -9,7 +9,6 @@ date:   2024-07-13 14:07:52 -0300
 categories: jekyll update
 tags: sql
 comments: false
-id: 1922342
 ---
 
 ## Blog Post Title From First Header

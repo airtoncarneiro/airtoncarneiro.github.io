@@ -1,6 +1,5 @@
 ---
 layout: post
----
 title: Testing advanced markdown
 published: false
 title:  "Welcome to Jekyll!"

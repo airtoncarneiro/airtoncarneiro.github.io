@@ -64,7 +64,7 @@ Vamos abrir o VS Code, selecionar o ambiente virtual e colar a função lambda d
 
 Nosso VS Code deve ficar mais ou menos assim:
 
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig01_interface_vscode_configurada.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main/assets/img/2024-07-14/fig01_interface_vscode_configurada.png)
 *Fig. 1: Interface do VS Code configurada.*
 
 
@@ -82,7 +82,7 @@ Para debugarmos a função lambda sem o plugin adequado, temos que tratá-la com
 
 E, então, é só prosseguirmos com o processo de debug:
 
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig02_1o_exemplo_debug.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig02_1o_exemplo_debug.png)
 *Fig. 2: Debugando AWS Lambda como função*
 
 Este método pode ser o mais simples. No entanto, deixa-nos às margens de algumas funcionalidades que do AWS Toolkit. Assim, vamos para o debug que nos interessa! :sunglasses:
@@ -105,7 +105,7 @@ O plugin para VS Code pode ser baixado neste [link](https://marketplace.visualst
 
 Após configurarmos o plugin, seu profile deve ser exibido na parte inferior esquerda do editor:
 
-![AWS Profile](/assets/img/2024-07-14/fig03_awstoolkit_profile.png
+![AWS Profile](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig03_awstoolkit_profile.png
 )
 <br>
 *Fig. 3: Profile AWS
@@ -114,7 +114,7 @@ Após configurarmos o plugin, seu profile deve ser exibido na parte inferior esq
 
 Clique no logo da AWS que aparece na barra de atividades e você verá os recursos disponíveis na  AWS
 <br>
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig04_apresentacao_awstoolkit.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig04_apresentacao_awstoolkit.png)
 <br>
 *Fig. 4: Debugando AWS Lambda como função*
 
@@ -122,7 +122,7 @@ Clique no logo da AWS que aparece na barra de atividades e você verá os recurs
 
 > [!TIP]
 > PSe você já tiver a função lambda na AWS é possível fazer o download dela pelo plugin!
-> ![AWS Profile](/assets/img/2024-07-14/fig05_menu_awstoolkit.png)
+> ![AWS Profile](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig05_menu_awstoolkit.png)
 > <br>
 > *Fig. 5: Download/Upload
 
@@ -130,7 +130,7 @@ Clique no logo da AWS que aparece na barra de atividades e você verá os recurs
 
 Com a nossa função aberta, vamos pressionar ==**_Ctrl + Shift + P_**== e digitar: ==**>sam debug**== e selecionar ==**AWS: SAM Debug Configuration**==
 
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig06_menu_samdebug.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig06_menu_samdebug.png)
 <br>
 
 *Fig. 6: Selecionando AWS: SAM Debug Configuration*
@@ -138,12 +138,12 @@ Com a nossa função aberta, vamos pressionar ==**_Ctrl + Shift + P_**== e digit
 Isso abrirá uma caixa de seleção. No passo (1/2), selecione o nome da sua função.
 No passo (2/2), selecione a versão do seu interpretador Python.
 
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig07_menu_sandebug_passo1.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig07_menu_sandebug_passo1.png)
 <br>
 *Fig. 7: SAM Debug Configuration: Passo 1/2*
 <br>
 
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig08_menu_sandebug_passo2.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig08_menu_sandebug_passo2.png)
 <br>
 *Fig. 8: SAM Debug Configuration: Passo 2/2*
 <br><br>
@@ -173,7 +173,7 @@ Após isso, será criado um arquivo **_launch.json_** na pasta **_.vscode_** do 
 
 Assim, para iniciarmos a debugar nossa função basta pressionar **F5**. Caso nós tenhamos outras configurações de debug, podemos clicar em **Debug** e selecionar o nome que demos para a nossa configuração de debug do lambda.
 
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig09_conf_debug.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig09_conf_debug.png)
 <br>
 *Fig. 9: Launch*
 
@@ -181,14 +181,17 @@ Assim, para iniciarmos a debugar nossa função basta pressionar **F5**. Caso n�
 O AWS SAM irá baixar a imagem para "hospedar" a nossa função lambda e fazer o debug remotamente a partir do nosso VS Code. Ou seja, essa parte do container deve ser transparente para nós.
 
 Ao iniciar o nosso debug, poderemos ver algo assim:
-![Como deve ficar o VS Code](/assets/img/2024-07-14/fig10_awssam_dubugging.png)
+![Como deve ficar o VS Code](https://raw.githubusercontent.com/airtoncarneiro/airtoncarneiro.github.io/main//assets/img/2024-07-14/fig10_awssam_dubugging.png)
 <br>
 *Fig. 10: Debugando com AWS SAM e Toolkit*
 
 Note que ela tem algumas diferenças da [Figura 2](#debugando-sem-o-uso-do-plugin) quando debugamos sem o plugin. Temos **_Context_**. Assim, nossa execução local está exatamente como se ela estivesse sendo executada no ambiente AWS (lembra do container?).
 
+---
+É isso! Assim, vimos como debugar uma função lambda localmente. Na continuação deste artigo veremos como fazer o deploy para a AWS quando a nossa função tem Layer.
+Até a próxima!
 
-<br>
+---
 
 ## Referências:
 

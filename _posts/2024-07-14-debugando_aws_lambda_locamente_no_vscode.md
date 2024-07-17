@@ -204,3 +204,5 @@ Até a próxima!
 [Launch Additional Configurations](https://code.visualstudio.com/docs/python/debugging#_additional-configurations)
 
 [AWS Toolkit Issues](https://github.com/aws/aws-toolkit-visual-studio/issues)
+
+[How to Debug Locally AWS Lambda Functions Using AWS Toolkit for Visual Studio Code](https://www.youtube.com/watch?app=desktop&v=X7Ji2UwRCKI)

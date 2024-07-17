@@ -1,11 +1,15 @@
-title: "Seu Nome"
-email: your-email@example.com
+title: "Airton Carneiro"
+email:
 description: "Blog com o objetivo de compartilhar conhecimento."
 baseurl: "" # se estiver no root do repositório, deixe vazio
-url: "https://username.github.io" # Substitua pelo seu URL do GitHub Pages
+url: "https://airtoncarneiro.github.io" # Substitua pelo seu URL do GitHub Pages
 
 # Markdown Processamento
 markdown: kramdown
+# markdown: GFM
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 theme: minima
 
 # Excluir da geração

@@ -63,6 +63,7 @@ Vamos abrir o VS Code, selecionar o ambiente virtual e colar a função lambda d
 > Para ativar o interpretador Python do ambiente virtual no VS Code use a seguinte combinação de teclas: ==**_Ctrl + Shift + P_**== (ou pelo menu **_View, Command Pallete..._**) e digite: ==**_>Python: Select Interpreter_**== e selecione o interpretador Python do ambiente virtual criado.
 
 Nosso VS Code deve ficar mais ou menos assim:
+
 ![Como deve ficar o VS Code](/assets/img/2024-07-14/fig01_interface_vscode_configurada.png)
 *Fig. 1: Interface do VS Code configurada.*
 
@@ -102,7 +103,8 @@ O plugin para VS Code pode ser baixado neste [link](https://marketplace.visualst
 > [!TIP]
 > Para instruções de instalação e configuração do plugin, acessar este [link](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/setup.html).
 
-Após configurarmos o plugin, seu profile deve ser exibido na parte inferior esqueda do editor:
+Após configurarmos o plugin, seu profile deve ser exibido na parte inferior esquerda do editor:
+
 ![AWS Profile](/assets/img/2024-07-14/fig03_awstoolkit_profile.png
 )
 <br>
@@ -130,6 +132,7 @@ Com a nossa função aberta, vamos pressionar ==**_Ctrl + Shift + P_**== e digit
 
 ![Como deve ficar o VS Code](/assets/img/2024-07-14/fig06_menu_samdebug.png)
 <br>
+
 *Fig. 6: Selecionando AWS: SAM Debug Configuration*
 <br>
 Isso abrirá uma caixa de seleção. No passo (1/2), selecione o nome da sua função.

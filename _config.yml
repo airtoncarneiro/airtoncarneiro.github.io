@@ -1,32 +1,18 @@
 title: "Airton Carneiro"
-email:
-description: "Blog com o objetivo de compartilhar conhecimento."
-baseurl: "" # se estiver no root do repositório, deixe vazio
-url: "https://airtoncarneiro.github.io" # Substitua pelo seu URL do GitHub Pages
-
-# Markdown Processamento
+description: "Senior Data Engineer | SQL, AWS, Data Platforms e GenAI"
+baseurl: ""
+url: "https://airtoncarneiro.github.io"
 markdown: kramdown
-# markdown: GFM
 kramdown:
   input: GFM
   syntax_highlighter: rouge
 theme: minima
-
-# Excluir da geração
+permalink: /:year/:month/:day/:title/
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "README.md"
   - "node_modules"
-  - "vendor/bundle/"
-  - "vendor/cache/"
-  - "vendor/gems/"
-  - "vendor/ruby/"
-
-# Permalinks
-permalink: /:year/:month/:day/:title/
-
-# Links da rede social (opcional)
-github_username: seu-github-username
-linkedin_username: seu-linkedin-username
-rss: rss
+  - "vendor/"
+github_username: airtoncarneiro
+rss: feed.xml
